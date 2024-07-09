@@ -1,8 +1,12 @@
 # Code for implementing the methods of the paper: “Low-Resource” Text Classification... on other datasets.
 
+The full title of the paper is “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors.
+
 You can check out the paper at Findings of [ACL2023](https://aclanthology.org/2023.findings-acl.426/).
 
 We use the Content-based Fake dataset from this link: [Google Drive](https://drive.google.com/drive/folders/1rLrh5x5UlYskfbhhVyz523MKgmCDyuX2?usp=sharing)
+
+Content-based Fake dataset filename: gossipcop_v3-2_content_based_fake.json
 
 ## Getting Started
 According to the paper, the codebase is [available on pypi.org via](https://pypi.org/project/npc-gzip):

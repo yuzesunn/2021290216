@@ -25,3 +25,31 @@ conda activate npc
 pip install -r requirements.txt
 ```
 
+### Data preprocessing
+
+See `preprocessing.py`.
+
+This will give the results of the two files: `train.txt` and `test.txt`.
+
+Since the `train.txt` was so large that it could not be uploaded here, only `test.txt` was uploaded.
+
+It is important to note that the format of the test file and the train file are the same, an example of which is given below:
+
+```text
+real	Teddy apparently has some unfinished Season 14 business at Grey Sloan Memorial...
+fake	[On Monday, the day news of pop sensation Justin Bieber's impending marriage to model Hailey Baldwin emerged,...
+```
+
+### Run
+
+```sh
+python main_text.py --dataset custom --data_dir /path/to/your/data
+```
+
+`/path/to/your/data`: You need to provide a directory path that should contain the files `train.txt` and `test.txt`.
+
+The command utilized in this project is:
+
+```sh
+python main_text.py --dataset custom --data_dir /my/path/ --class_num 2 --compressor gzip --num_train 500 --num_test 100
+```

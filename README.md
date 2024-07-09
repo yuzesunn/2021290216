@@ -1,2 +1,8 @@
-# 2021290216
-The project is to implement the methods of the Paper: “Low-Resource” Text Classification: A Parameter-Free Classification Method with Compressors on other datasets.
+# Code for implementing the methods of the paper: “Low-Resource” Text Classification... on other datasets.
+You can check out the paper at https://aclanthology.org/2023.findings-acl.426/.
+We use the Content-based Fake dataset from this link: https://drive.google.com/drive/folders/1rLrh5x5UlYskfbhhVyz523MKgmCDyuX2?usp=sharing.
+
+# Getting Started
+According to the paper, the codebase is available on https://pypi.org/project/npc-gzip/ via:
+pip install npc-gzip
+
